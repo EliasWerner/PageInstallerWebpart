@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "contracts-page-installer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contractsPageInstaller/ContractsPageInstallerWebPart.js",
+          "manifest": "./src/webparts/contractsPageInstaller/ContractsPageInstallerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ContractsPageInstallerWebPartStrings": "lib/webparts/contractsPageInstaller/loc/{locale}.js"
+  }
+}
